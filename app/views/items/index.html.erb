@@ -1,0 +1,13 @@
+  <div class="header">
+    <img src="https://images.unsplash.com/photo-1616121474380-abe0aa516c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80" alt="">
+  </div>
+<div class="wrapper">
+
+  <div class="each-item">
+
+    <% @items.each do |item| %>
+      <%= item.name %>
+      <%= item.brand  %>
+    <% end %>
+  </div>
+</div>

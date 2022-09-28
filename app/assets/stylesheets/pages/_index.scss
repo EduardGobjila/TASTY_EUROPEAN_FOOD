@@ -1,2 +1,16 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.header {
+  width: 100vw;
+  height: 450px;
+}
+.header img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+* {
+  border: 1px solid red;
+}
