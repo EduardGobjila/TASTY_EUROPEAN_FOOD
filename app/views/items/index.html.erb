@@ -6,8 +6,8 @@
   <div class="each-item">
 
     <% @items.each do |item| %>
-      <%= item.name %>
-      <%= item.brand  %>
+     <%= link_to item.name, item %> <br>
+      <%= item.price %>
     <% end %>
   </div>
 </div>
