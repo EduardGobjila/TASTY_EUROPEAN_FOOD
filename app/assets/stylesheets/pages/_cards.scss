@@ -1,0 +1,22 @@
+// Here all the cards of the home page
+
+.wrapper {
+  width: 100vw;
+}
+.header {
+  width: 100%;
+  text-align: center;
+  background-image: url("https://friendlylocalguides.com/blog/wp-content/uploads/2014/12/Bankoboev.Ru_prazdnichnye_bliny1-1024x683.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.9;
+}
+.text-header {
+  margin: 0 auto;
+  color: white;
+  padding: 150px 0;
+}
+.text-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
